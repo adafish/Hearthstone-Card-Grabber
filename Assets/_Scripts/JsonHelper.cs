@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System;
+
+//see this thread: https://stackoverflow.com/questions/36239705/serialize-and-deserialize-json-and-json-array-in-unity
 public static class JsonHelper
 {
     public static T[] FromJson<T>(string json)
